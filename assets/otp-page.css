@@ -1,0 +1,69 @@
+
+.container-sm{
+  display: flex;
+  justify-content: space-evenly;
+  width: 29vw;
+}
+.img-fluid{
+  margin-left: 38vw;
+}
+
+.text{
+  font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #333333;
+text-align: center;
+}
+
+.text-2{
+  font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+margin-top: 33px;
+
+text-align: center;
+color: #666666;
+}
+
+.otp-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  margin: auto;
+  margin-top: 17px;
+}
+
+/* .otp-enter-digit input{
+  width: 38px;
+  font-style: none;
+} */
+
+.otp-input{
+  width: 38px;
+  font-style: none;
+}
+
+.btn{
+  /* width: 98%; */
+  width: 224px;
+  height: 36px;
+  color:white;
+  background: #F7B348;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 40vw;
+    margin-top: 18px;
+  }
+  
+  .btn:hover{
+    background-color: yellowgreen;
+  }
+  

@@ -1,0 +1,50 @@
+
+.Artwork-image{
+  margin-top: 10vh;
+  margin-left: 37vw;
+}
+
+.welcome-text{
+  font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+
+color: #333333;
+text-align: center;
+margin-top: 15px;
+}
+
+.text-2{
+  font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #999999;
+text-align: center;
+margin-top: 15px;
+}
+
+.btn{
+  /* width: 98%; */
+  width: 224px;
+  height: 36px;
+  color:white;
+  background: #F7B348;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 40vw;
+    margin-top: 18px;
+  }
+  
+  .btn:hover{
+    background-color: yellowgreen;
+  }
+
+  
+

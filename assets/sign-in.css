@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  
+}
+main{
+  height: 70vh;
+  width: 25vw;
+  margin: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+header{
+  display:none;
+height: 44px;
+margin-top: 0vh;
+/* border:1px solid red; */
+}
+.container{
+  background: #E5E5E5;
+}
+
+.AK-LOGO{
+  
+  /* border:1px solid red; */
+  margin: auto;
+width: 20vw;
+height: 50px;
+}
+
+.AK-LOGO img{
+  width: 20vw;
+  height: 50px;
+}
+.welcome-back{
+  margin: auto;
+}
+.welcome-back span{
+  
+width: 174px;
+height: 28px;
+left: calc(50% - 174px/2 + 0.5px);
+top: calc(50% - 28px/2 - 75px);
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.signInYourAcc{
+
+margin: auto;
+width: auto;
+height: 19px;
+left: calc(50% - 237px/2 + 1px);
+top: calc(50% - 19px/2 - 31.5px);
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+color: #666666;
+}
+
+.enterNumContainer{
+margin: auto;
+/* border: 2px solid red; */
+height: 20vh;
+width: 21vw;
+}
+
+.input-form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.enterContactNum{
+  /* border: 2px solid saddlebrown; */
+  /* border: 2px solid saddlebrown;  */
+  width: 113px;
+  height: 30%;
+  margin-left: 1vw;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #999999;
+  z-index: 1;
+  background-color: white;
+  }
+/* Rectangle 1566 */
+
+ .rectangle{
+  width: 98%;
+height: 44px;
+border: 1px solid #FFD37D;
+box-sizing: border-box;
+border-radius: 5px;
+margin-top: -27px;
+
+
+}
+
+.rectangle:hover{
+  border: 1px solid yellowgreen;
+} 
+
+
+
+.user-noty{
+margin-top: -3vh;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #999999;
+}
+
+.btn{
+width: 98%;
+/* width: 224px; */
+height: 36px;
+color:white;
+background: #F7B348;
+border-radius: 100px;
+cursor: pointer;
+margin: auto;
+}
+
+.btn:hover{
+  background-color: yellowgreen;
+}
+
+@media only screen and (max-width: 614px) {
+  .enterContactNum{
+    width: 20%;
+  }   
+}
